@@ -1,0 +1,27 @@
+<html>
+<head></head>
+<body>
+
+<script>
+    var Housing = function(floors) {
+
+        let what = 'building',
+            countFloors = function() {
+                console.log('I have', floors, 'floors')
+            };
+
+        var floors = floors;
+                return Object.freeze(
+                {
+                    countFloors,
+                    floors,
+                    what
+                }
+        )
+    };
+
+    var myHouse = new Housing(5);
+    myHouse.countFloors();
+</script>
+</body>
+</html>
