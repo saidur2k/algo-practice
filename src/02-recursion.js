@@ -14,8 +14,4 @@ var factorial = function (n) {
   return n * factorial(n - 1)
 }
 
-factorial(1) // 1
-factorial(2) // 2
-factorial(3) // 1 * 2 * 3
-
 export { fibonacci, factorial }
