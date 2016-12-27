@@ -2,12 +2,10 @@
 
 This is my playground for testing CS algorithms
 
-[![version][version-badge]][package]
-[![downloads][downloads-badge]][npm-stat]
 [![MIT License][license-badge]][LICENSE]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
+![coverage-badge]
 ## LICENSE
 MIT
 
