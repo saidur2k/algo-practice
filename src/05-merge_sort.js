@@ -52,3 +52,17 @@ export var mergeSort = (nums) => {
 
   return stitch(mergedLeft, mergedRight)
 }
+
+export var medianValue = (nums) => {
+  if (nums.length < 2) {
+    return nums[0]
+  }
+
+  const middle = Math.floor(nums.length / 2)
+  const leftArray = nums.slice(0, middle)
+  const rightArray = nums.slice(middle, nums.length)
+  const mergedLeft = mergeSort(leftArray)
+  const mergedRight = mergeSort(rightArray)
+
+  return stitch(mergedLeft, mergedRight)[middle]
+}
